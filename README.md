@@ -1,4 +1,4 @@
-# CSCF — Cross-modal Semantic Consistency Fusion
+# CSCF — Class Similarity-based Cross-modal Fusion model
 
 This repository implements **Cross-modal Semantic Consistency Fusion (CSCF)** for **Multi-Modal Heterogeneous Category-set Learning (MMHCL)** on multi-modal data. The model projects each modality into a shared semantic space (derived from CLIP text features), then fuses the modalities via uncertainty-guided similarity-based logit combination.
 
