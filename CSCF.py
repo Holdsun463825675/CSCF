@@ -4,7 +4,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from FusionLogits import compute_uncertainty, combine_logits_similarity
 
-
 class MLP(nn.Module):
     def __init__(self, attr_dim, hid_dim, num_class, device='cpu'):
         super(MLP, self).__init__()

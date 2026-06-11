@@ -1,7 +1,6 @@
 import torch
 import torch.nn.functional as F
 
-
 def compute_entropy(logits):
     prob = F.softmax(logits, dim=-1)
     entropy = -torch.sum(prob * torch.log(prob), dim=-1)
